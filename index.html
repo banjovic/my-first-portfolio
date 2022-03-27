@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="styles.scss" />
+    <link rel="stylesheet" href="styles.css" />
     <!-- Font Awesome -->
     <link
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
@@ -43,25 +43,10 @@
 
           <!-- Collapsible wrapper -->
           <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <!-- Navbar brand -->
-            <a class="navbar-brand mt-2 mt-lg-0" href="#">
-              <img
-                src="https://mdbcdn.b-cdn.net/img/logo/mdb-transaprent-noshadows.webp"
-                height="15"
-                alt="MDB Logo"
-                loading="lazy"
-              />
-            </a>
             <!-- Left links -->
             <ul class="navbar-nav me-auto mb-2 mb-lg-0">
               <li class="nav-item">
-                <a class="nav-link" href="#">Dashboard</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">Team</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">Projects</a>
+                <a class="nav-link" href="#">Victoria Banjo</a>
               </li>
             </ul>
             <!-- Left links -->
@@ -71,73 +56,25 @@
           <!-- Right elements -->
           <div class="d-flex align-items-center">
             <!-- Icon -->
-            <a class="text-reset me-3" href="#">
-              <i class="fas fa-shopping-cart"></i>
-            </a>
+            <a class="text-reset me-3" href="#"> Portfolio </a>
 
-            <!-- Notifications -->
-            <div class="dropdown">
-              <a
-                class="text-reset me-3 dropdown-toggle hidden-arrow"
-                href="#"
-                id="navbarDropdownMenuLink"
-                role="button"
-                data-mdb-toggle="dropdown"
-                aria-expanded="false"
-              >
-                <i class="fas fa-bell"></i>
-                <span class="badge rounded-pill badge-notification bg-danger"
-                  >1</span
-                >
-              </a>
-              <ul
-                class="dropdown-menu dropdown-menu-end"
-                aria-labelledby="navbarDropdownMenuLink"
-              >
-                <li>
-                  <a class="dropdown-item" href="#">Some news</a>
-                </li>
-                <li>
-                  <a class="dropdown-item" href="#">Another news</a>
-                </li>
-                <li>
-                  <a class="dropdown-item" href="#">Something else here</a>
-                </li>
-              </ul>
-            </div>
-            <!-- Avatar -->
-            <div class="dropdown">
-              <a
-                class="dropdown-toggle d-flex align-items-center hidden-arrow"
-                href="#"
-                id="navbarDropdownMenuAvatar"
-                role="button"
-                data-mdb-toggle="dropdown"
-                aria-expanded="false"
-              >
-                <img
-                  src="https://mdbcdn.b-cdn.net/img/new/avatars/2.webp"
-                  class="rounded-circle"
-                  height="25"
-                  alt="Black and White Portrait of a Man"
-                  loading="lazy"
-                />
-              </a>
-              <ul
-                class="dropdown-menu dropdown-menu-end"
-                aria-labelledby="navbarDropdownMenuAvatar"
-              >
-                <li>
-                  <a class="dropdown-item" href="#">My profile</a>
-                </li>
-                <li>
-                  <a class="dropdown-item" href="#">Settings</a>
-                </li>
-                <li>
-                  <a class="dropdown-item" href="#">Logout</a>
-                </li>
-              </ul>
-            </div>
+            <!-- About -->
+            <a class="text-reset me-3" href="#"> About </a>
+
+            <!-- Contact -->
+            <a class="text-reset me-3" href="#"> Contact </a>
+
+            <!-- Email -->
+            <a
+              class="dropdown-toggle d-flex align-items-center hidden-arrow"
+              href="#"
+              id="navbarDropdownMenuAvatar"
+              role="button"
+              data-mdb-toggle="dropdown"
+              aria-expanded="false"
+            >
+              <i class="fas fa-envelope me-3"></i>
+            </a>
           </div>
           <!-- Right elements -->
         </div>
@@ -146,7 +83,7 @@
       <!-- Navbar -->
     </header>
 
-    <section>
+    <!-- <section>
       <ul>
         <li></li>
         <li></li>
@@ -158,61 +95,30 @@
       </div>
     </section>
 
-    <section></section>
+    <section></section> -->
 
     <!-- Footer -->
     <footer class="bg-dark text-center text-white">
       <!-- Grid container -->
       <div class="container p-4">
         <!-- Section: Social media -->
-        <section class="mb-4">
+        <section
+          class="d-flex justify-content-center justify-content-lg-between p-4 mb-4 border-bottom"
+        >
           <!-- Facebook -->
-          <a
-            class="btn btn-outline-light btn-floating m-1"
-            href="#!"
-            role="button"
-            ><i class="fab fa-facebook-f"></i
-          ></a>
-
-          <!-- Twitter -->
-          <a
-            class="btn btn-outline-light btn-floating m-1"
-            href="#!"
-            role="button"
-            ><i class="fab fa-twitter"></i
-          ></a>
-
-          <!-- Google -->
-          <a
-            class="btn btn-outline-light btn-floating m-1"
-            href="#!"
-            role="button"
-            ><i class="fab fa-google"></i
-          ></a>
-
-          <!-- Instagram -->
-          <a
-            class="btn btn-outline-light btn-floating m-1"
-            href="#!"
-            role="button"
-            ><i class="fab fa-instagram"></i
-          ></a>
-
-          <!-- Linkedin -->
-          <a
-            class="btn btn-outline-light btn-floating m-1"
-            href="#!"
-            role="button"
-            ><i class="fab fa-linkedin-in"></i
-          ></a>
-
-          <!-- Github -->
-          <a
-            class="btn btn-outline-light btn-floating m-1"
-            href="#!"
-            role="button"
-            ><i class="fab fa-github"></i
-          ></a>
+          <div class="me-5 d-none d-lg-block">
+            <h3>About me</h3>
+            <div>
+              Hello I’m a software developer! I can help you build a product ,
+              feature or website Look through some of my work and experience! If
+              you like what you see and have a project you need coded, don’t
+              hesitate to contact me.
+            </div>
+            <button type="button" class="btn btn-primary">Get My Resume</button>
+          </div>
+          <a class="me-4 text-reset" href="#!" role="button"
+            ><img src="./assets/images/Frame.svg" alt=""
+          /></a>
         </section>
         <!-- Section: Social media -->
 
