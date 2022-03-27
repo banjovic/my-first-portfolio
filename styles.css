@@ -1,0 +1,21 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+section {
+  background-color: #262626;
+}
+
+a {
+  color: #cfcfcf;
+}
+
+i {
+  color: #cfcfcf;
+}
+
+.btn-primary {
+  background-color: #f55800 !important;
+}
